@@ -1,5 +1,6 @@
 import torch
 import torch.nn as nn
+mkdir models utils outputs data
 
 class DenoisingCNN(nn.Module):
     def __init__(self):
